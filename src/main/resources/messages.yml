@@ -1,0 +1,9 @@
+messages:
+  gui-title: "&#facc15&lPLAYER KITS"
+  no-permission: "&#FF0812&l[!] &fBạn không có quyền thực hiện hành động này!"
+  cooldown: "&#facc15&l[!] &fVui lòng chờ &#facc15%time%s &fđể tiếp tục nhận kit."
+  receive-success: "&#1CFF47&l[!] &fBạn đã nhận bộ kit &#facc15%kit% &fthành công!"
+  inventory-full: "&#FF0812&l[!] &fTúi đồ của bạn đã đầy!"
+  create-success: "&#1CFF47&l[!] &fĐã tạo bộ kit &#facc15%kit% &fthành công!"
+  enter-time: "&#facc15&l[!] &fVui lòng nhập thời gian vào Chat (1s, 1m, 1d):"
+  time-set: "&#1CFF47&l[!] &fĐã đặt thời gian: &#facc15%time%"
