@@ -20,8 +20,8 @@
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>morelib-repo</id>
+            <url>https://repo.codemc.io/repository/maven-public/</url>
         </repository>
     </repositories>
 
@@ -33,9 +33,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.shynixn.folialib</groupId>
-            <artifactId>folialib</artifactId>
-            <version>0.3.1</version>
+            <groupId>cn.mcstarry.morelib</groupId>
+            <artifactId>morelib-bukkit</artifactId>
+            <version>1.1.2</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
@@ -64,11 +64,10 @@
                         <configuration>
                             <relocations>
                                 <relocation>
-                                    <pattern>com.github.shynixn.folialib</pattern>
-                                    <shadedPattern>me.aris.ariskits.libs.folialib</shadedPattern>
+                                    <pattern>cn.mcstarry.morelib</pattern>
+                                    <shadedPattern>me.aris.ariskits.libs.morelib</shadedPattern>
                                 </relocation>
                             </relocations>
-                            <createDependencyReducedPom>false</createDependencyReducedPom>
                         </configuration>
                     </execution>
                 </executions>
