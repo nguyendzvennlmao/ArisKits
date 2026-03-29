@@ -1,8 +1,4 @@
-settings:
-  support-folia: true
-  prefix: "&#facc15&lArisKits &8» "
 sounds:
   receive: "ENTITY_PLAYER_LEVELUP"
   error: "ENTITY_VILLAGER_NO"
   click: "UI_BUTTON_CLICK"
-  open-menu: "BLOCK_CHEST_OPEN"
