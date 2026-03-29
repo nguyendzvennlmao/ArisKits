@@ -1,0 +1,20 @@
+name: ArisKits
+version: '1.0'
+main: me.aris.ariskits.ArisKits
+api-version: '1.20'
+author: VennLMAO
+description: Hệ thống PlayerKits cho Aris Network.
+
+commands:
+  kit:
+    description: Lệnh nhận hoặc quản lý bộ kit
+    usage: /kit [create|edit|reload|delete|time|slot] <tên>
+    aliases: [kits, playerkits]
+
+permissions:
+  ariskits.admin:
+    description: Quyền quản trị plugin
+    default: op
+  ariskits.kit.*:
+    description: Quyền nhận toàn bộ kit
+    default: false
