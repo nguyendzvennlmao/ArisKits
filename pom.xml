@@ -68,6 +68,7 @@
                                     <shadedPattern>me.aris.ariskits.libs.folialib</shadedPattern>
                                 </relocation>
                             </relocations>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
                         </configuration>
                     </execution>
                 </executions>
