@@ -22,8 +22,8 @@
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>sonatype</id>
+            <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
     </repositories>
 
@@ -35,9 +35,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.shynixn.folialib</groupId>
-            <artifactId>folialib</artifactId>
-            <version>0.3.1</version>
+            <groupId>com.github.stefansundin</groupId>
+            <artifactId>foliacontrol</artifactId>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
@@ -66,8 +66,8 @@
                         <configuration>
                             <relocations>
                                 <relocation>
-                                    <pattern>com.github.shynixn.folialib</pattern>
-                                    <shadedPattern>me.aris.ariskits.libs.folialib</shadedPattern>
+                                    <pattern>com.github.stefansundin.foliacontrol</pattern>
+                                    <shadedPattern>me.aris.ariskits.libs.foliacontrol</shadedPattern>
                                 </relocation>
                             </relocations>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
